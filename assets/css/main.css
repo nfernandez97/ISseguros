@@ -421,6 +421,7 @@ input, select, textarea {
 		.row.gtr-50 {
 			margin-top: -25px;
 			margin-left: -25px;
+
 		}
 
 			.row.gtr-50 > * {
@@ -1936,7 +1937,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 6 Free';
 			font-weight: 400;
 		}
 
@@ -1949,7 +1950,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome 6 Brands';
 		}
 
 		.icon.circle {
@@ -1982,6 +1983,8 @@ input, select, textarea {
 
 				.icon.circle.fa-facebook-f:hover {
 					background: #829bc9;
+					box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+					transform: translateY(-7px);
 				}
 
 
@@ -1992,6 +1995,8 @@ input, select, textarea {
 
 				.icon.circle.fa-whatsapp:hover {
 					background: #25D366;
+					box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+					transform: translateY(-7px);
 				}	
 
 		.icon.featured {
@@ -2008,7 +2013,9 @@ input, select, textarea {
 			}
 
 		.icon > .label {
-			display: none;
+			display:block;
+			font-size: 0.3em;
+			margin-top: -65px;
 		}
 
 /* List */
@@ -2023,12 +2030,12 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
-		padding-left: 1em;
+		list-style:disc;
+		padding-left: 0;
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left: 0;
 		}
 
 /* Icons */
@@ -2247,11 +2254,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
-			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
-			background-position: bottom left, bottom right;
-			background-repeat: no-repeat, no-repeat;
-			background-size: 25em, 25em;
+			background-color: #1259dd;
 			color: #fff;
 		}
 
@@ -2567,7 +2570,7 @@ input, select, textarea {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: transparent;
 		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("../../images/banner2.jpeg");
-		background-position: bottom left, bottom right, 100% 50%;
+		background-position: bottom left, bottom right, center;
 		background-repeat: no-repeat, no-repeat, no-repeat;
 		background-size: 30em, 30em, cover;
 		height: 100%;
@@ -2661,10 +2664,10 @@ input, select, textarea {
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: top left, top right, top left, bottom center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("../../images/banner.jpg");
+		background-position: top left, top right, bottom center;
+		background-repeat: no-repeat, no-repeat, no-repeat;
+		background-size: 25em, 25em, cover;
 		color: #fff;
 		padding: 5em;
 		text-align: center;
