@@ -78,7 +78,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #c2edeb51;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -140,6 +140,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.5em;
 		letter-spacing: 0.1em;
+		padding-top: 0.7em;
 	}
 
 	h3 {
@@ -2238,7 +2239,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background: none;
+			background: #ffffff65;
 			color: blue;
 		}
 
@@ -2664,7 +2665,7 @@ input, select, textarea {
 	#footer {
 		background: white;
 		color: black;
-		padding: 5em 5em 10em 5em;
+		padding: 2em 2em 2em 2em;
 		text-align: center;
 	}
 
