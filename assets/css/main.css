@@ -18,7 +18,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -47,7 +48,7 @@ table {
 }
 
 body {
-	-webkit-text-size-adjust: none;
+	-webkit-text-size-adjust:auto;
 }
 
 mark {
@@ -182,6 +183,18 @@ input, select, textarea {
 
 		.container.medium {
 			width: 1050px;
+		}
+
+		@media screen and (max-width: 1920px) {
+
+			.container {
+				width: 1368px;
+			}
+
+				.container.medium {
+					width: 1028px;
+				}
+
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2108,11 +2121,6 @@ input, select, textarea {
 			padding: 1.5em 0 0 0;
 		}
 
-			ul.buttons.stacked:hover{
-				background-color: #FFD700;
-				max-width: fit-content;
-			}
-
 			ul.buttons.stacked li:first-child {
 				padding: 0;
 			}
@@ -2216,6 +2224,10 @@ input, select, textarea {
 		.button.fit {
 			border-radius: 15px;
 			width: 100%;
+			color: black;
+		}
+		.button.fit:hover{
+			background-color: #FFD700;
 		}
 
 		input[type="button"].small,
@@ -2577,7 +2589,7 @@ input, select, textarea {
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
-			padding: 3em;
+			padding: 0;
 			text-align: center;
 		}
 
@@ -2607,6 +2619,7 @@ input, select, textarea {
 					color: inherit;
 					font-weight: 400;
 					text-decoration: none;
+					margin-bottom: -8em;
 				}
 
 			#banner .inner ul {
@@ -3293,7 +3306,7 @@ input, select, textarea {
 				#banner .inner {
 					background: none;
 					display: block;
-					padding: 1.5em 1.5em;
+					margin-bottom: -2em;
 				}
 
 					#banner .inner header h2 {
