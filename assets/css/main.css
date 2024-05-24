@@ -2110,6 +2110,7 @@ input, select, textarea {
 
 			ul.buttons.stacked:hover{
 				background-color: #FFD700;
+				max-width: fit-content;
 			}
 
 			ul.buttons.stacked li:first-child {
