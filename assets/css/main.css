@@ -78,7 +78,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f3f6fa;
+		background: #fff;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -93,7 +93,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #7c8081;
+		color: blue;
 		font-family: 'Lato', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
@@ -1734,7 +1734,6 @@ input, select, textarea {
 			border-top: solid 1.5px;
 			content: '';
 			height: 7px;
-			opacity: 0.1;
 			position: absolute;
 			top: 1.75em;
 			width: 43%;
@@ -1769,7 +1768,6 @@ input, select, textarea {
 
 			header.special .icon:before {
 				font-size: 3.5em;
-				opacity: 0.35;
 			}
 
 	footer > :last-child {
@@ -1820,24 +1818,20 @@ input, select, textarea {
 
 	::-webkit-input-placeholder {
 		color: inherit;
-		opacity: 0.5;
 		position: relative;
 		top: 3px;
 	}
 
 	:-moz-placeholder {
 		color: inherit;
-		opacity: 0.5;
 	}
 
 	::-moz-placeholder {
 		color: inherit;
-		opacity: 0.5;
 	}
 
 	:-ms-input-placeholder {
 		color: inherit;
-		opacity: 0.5;
 	}
 
 /* Image */
@@ -1848,7 +1842,6 @@ input, select, textarea {
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
 			content: '';
 			height: 100%;
 			left: 0;
@@ -1880,7 +1873,6 @@ input, select, textarea {
 
 	.btn-flotante {
 		border-radius: 100%; /* Borde del boton */
-		background-color: transparent; /* Color de fondo */
 		position: fixed;
 		bottom: 10px;
 		right: 10px;
@@ -1889,7 +1881,7 @@ input, select, textarea {
 	}
 
 	.btn-flotante.brands:before {
-		font-family: 'Font Awesome 5 Brands';
+		font-family: 'Font Awesome 6 Brands';
 	}	
 
 	.btn-flotante.circle {
@@ -1929,8 +1921,6 @@ input, select, textarea {
 	}
 
 		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
 			display: inline-block;
 			font-style: normal;
 			font-variant: normal;
@@ -2003,7 +1993,6 @@ input, select, textarea {
 			cursor: default;
 			display: block;
 			margin: 0 0 1.5em 0;
-			opacity: 0.35;
 			text-align: center;
 		}
 
@@ -2061,7 +2050,6 @@ input, select, textarea {
 	ul.featured-icons {
 		cursor: default;
 		margin: -0.75em 0 0 0;
-		opacity: 0.35;
 		overflow: hidden;
 		position: relative;
 		list-style: none;
@@ -2085,13 +2073,9 @@ input, select, textarea {
 				width: 1em;
 			}
 
-			ul.featured-icons svg li .icon{
-				display: inline-block;
-				font-size: 5.5em;
-				height: 1em;
-				line-height: 1.5em;
-				width: 1em;
-			}
+				ul.featured-icons li .icon:hover{
+					color: red;
+				}
 
 /* Buttons */
 
@@ -2254,8 +2238,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #1259dd;
-			color: #fff;
+			background: none;
+			color: blue;
 		}
 
 			.wrapper.style2 input[type="button"]:hover,
@@ -2408,15 +2392,13 @@ input, select, textarea {
 					}
 
 						#header nav ul li.submenu > a:before {
-							-moz-osx-font-smoothing: grayscale;
-							-webkit-font-smoothing: antialiased;
 							display: inline-block;
 							font-style: normal;
 							font-variant: normal;
 							text-rendering: auto;
 							line-height: 1;
 							text-transform: none !important;
-							font-family: 'Font Awesome 5 Free';
+							font-family: 'Font Awesome 6 Free';
 							font-weight: 900;
 						}
 
@@ -2567,7 +2549,7 @@ input, select, textarea {
 	}
 
 	#banner {
-		background-attachment: scroll, scroll, scroll, fixed;
+		background-attachment: scroll, scroll, scroll, scroll;
 		background-color: transparent;
 		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("../../images/banner2.jpeg");
 		background-position: bottom left, bottom right, center;
@@ -2680,8 +2662,8 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #E8EEF4;
-		color: #7c8081;
+		background: white;
+		color: black;
 		padding: 5em 5em 10em 5em;
 		text-align: center;
 	}
@@ -2923,6 +2905,7 @@ input, select, textarea {
 
 			ul.featured-icons {
 				margin: 0;
+
 			}
 
 				ul.featured-icons li {
@@ -3042,15 +3025,13 @@ input, select, textarea {
 				}
 
 					#navButton .toggle:before {
-						-moz-osx-font-smoothing: grayscale;
-						-webkit-font-smoothing: antialiased;
 						display: inline-block;
 						font-style: normal;
 						font-variant: normal;
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
+						font-family: 'Font Awesome 6 Free';
 						font-weight: 900;
 					}
 
@@ -3187,7 +3168,7 @@ input, select, textarea {
 
 			h2 {
 				font-size: 1.25em;
-				letter-spacing: 0.1em;
+				letter-spacing: 0.07em;
 			}
 
 			h3 {
